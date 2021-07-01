@@ -35,8 +35,26 @@
    - middle styles with a resolution of 16x16 to 32x32, or fine styles with a resolution from 64x64 to 1024x1024.
    - Coarse styles govern high-level features such as the subject’s pose of in the image or the subject’s hair, face shape, etc. Middle styles control aspects such as facial features. Lastly, fine styles cover details in the image such as color of the eyes or other microstructures.
    - The StyleGAN architecture also adds noise on a per-pixel basis after each convolution layer for **stochastic variations:**
-   - 
-   - 
+   
+  ### Feature disentanglement
+  -  The reason why traditional GANs have a problem with control of styles or features within the same image is due to something called feature entanglement.
+  -  a GAN is not as capable of distinguishing these finer details as a human, thus leading the features to become “entangled” with each other to some extent within the GAN’s frame of perception.
+  -  A good example would be “entanglement” between the features of hair color and gender
+  -  featur attached to specific type of image
+  -  i.e short hair with male  and long hair with female
+  -  so if we try to generate male with long hair , we will end up getting female
+  -  **Using the intermediate latent space, the StyleGAN architecture lets the user make small changes to the input vector in such a way that the output image is not altered dramatically.**
+  -  **A “mapping network” is included that maps an input vector to another intermediate latent vector, which is then fed to the generator network.**
+  
+  ### training of styleGAN
+  -  StyleGAN was trained on the CelebA-HQ and FFHQ datasets for one week using 8 Tesla V100 GPUs
+  
+  ### Other related research:
+  - Semantic Image Synthesis with Spatially-Adaptive Normalization
+  - SPADE
+  - GauGAN
+  - Image2StyleGAN
+  
     
     
     
