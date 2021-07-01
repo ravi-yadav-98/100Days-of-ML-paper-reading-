@@ -2,6 +2,9 @@
 ### DCGAN (deep convolution GAN)
 - DCGANs are an improvement of GANs. They are more stable and generate higher quality images. In DCGAN, batch normalization is done in both networks,
  i.e the generator network and the discriminator network. They can be used for style transfer
+- DCGANs got rid of the pooling layers used in some CNNs, and relied on convolutions and transpose convolutions to change the representation size. Most layers were followed by a batch normalization and a leaky ReLU activation.
+- DCGANs got rid of the pooling layers used in some CNNs, and relied on convolutions and transpose convolutions to change the representation size. Most layers were followed by a batch normalization and a leaky ReLU activation.
+- 
 
 
 ### Conditional GAN (cGAN)
