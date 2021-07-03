@@ -10,5 +10,9 @@
     4. edge to imgae
     5. labels(segementaion) to real image
 -  **These all problems are related to map pixel to pixel**
--  **Conditional adversarial nets are a general-purpose solution that appears to work well on a wide variety of these problems.**
--  
+### cGAN:-
+  - **Conditional adversarial nets are a general-purpose solution that appears to work well on a wide variety of these problems.**
+  -  In cGAN both the generator and discriminator are conditioned on some sort of auxiliary information such as class labels or data from other modalities.
+  -  As a result, the ideal model can learn multi-modal mapping from inputs to outputs by feeding it with different contextual information.
+  -  cGANs are used for image2image translation, text to image , video generation, 
+  -  In traditional GAN,  there is no way to control the types of images that are generated other than trying to figure out the complex relationship between the latent space input to the generator and the generated images.
