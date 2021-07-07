@@ -23,4 +23,12 @@
 
 ### Reference Management software:
 -  Zotero
+
+
+
+### Other Resources:
+1. [reddit](https://www.reddit.com/r/MachineLearning/comments/o4dph1/d_machine_learning_wayr_what_are_you_reading_week/)
+2. [run.ai](https://www.run.ai/guides/gpu-deep-learning/)
+3. https://machinelearningplus.com/
+4. 
   
