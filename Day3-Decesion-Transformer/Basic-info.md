@@ -13,3 +13,7 @@ that experience dataset to maximize rewards
 - Offline algorithms: - Q-learning 
 - conservative Q-Learning:--> improves limitations of q-learning (overestimation)
 - temporal differnce learning: TD Learning:- 
+
+### upside down RL
+- predict action given rewards
+- 
